@@ -1,0 +1,61 @@
+header.intro {
+  color: white;
+  background: #333;
+  background: linear-gradient(to bottom, #444, #222);
+  padding: 20px;
+  box-shadow: 0 12px 8px rgba(0,0,0,.3);
+  margin-bottom: 200px;
+
+  .logo-bar {
+    text-align: center;
+    border-bottom: 1px solid #CCC;
+    height: 0;
+
+    .logo img {
+      height: 20px;
+      position: relative;
+      background: #444;
+      top: -10px;
+      padding: 0 10px;
+    }
+  }
+
+  .contents {
+    margin: auto;
+    max-width: 800px;
+  }
+
+  h1 {
+    font-family: @hed;
+    padding: 0;
+    text-align: center;
+  }
+
+  p {
+    font-family: sans-serif;
+
+    &.byline {
+      font-style: italic;
+    }
+
+    &.instructions {
+      font-family: @hed;
+      text-align: center;
+    }
+  }
+
+}
+
+footer.closing {
+  background: #333;
+  color: white;
+  padding: 20px;
+  font-family: @hed;
+  font-weight: normal;
+
+  ul.byline {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+  }
+}

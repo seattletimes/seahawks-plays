@@ -1,0 +1,106 @@
+.parallax-play {
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  background-attachment: fixed;
+  background-position: 50% 50%;
+  background-size: cover;
+  padding: 0 0 100%;
+
+  .description {
+    position: relative;
+    border-size: 2px;
+    border-style: solid;
+    border-color: @seaBlue;
+    margin: 40px 100px 0;
+    float: left;
+    width: 360px;
+    background: white;
+    font-weight: 14px;
+    background: @seaBlue;
+    box-shadow: 8px 8px 16px rgba(0,0,0,.3);
+
+    @media @mobile {
+      margin: 40px 40px 0 60px;
+      width: ~"calc(100% - 100px)";
+    }
+
+    .numeral {
+      @size: 32px;
+      border-radius: 100%;
+      // border: 2px solid @seaBlue;
+      background: desaturate(@seaGreen, 20%);
+      color: @seaBlue;
+      position: absolute;
+      top: -@size;
+      left: -@size * 1.5;
+      font-size: @size;
+      font-family: @hed;
+      line-height: @size * 2;
+      text-align: center;
+      width: @size * 2;
+      height: @size * 2;
+      box-shadow: 8px 8px 8px rgba(0,0,0,.4);
+    }
+
+    h1 {
+      font-size: 20px;
+      font-weight: normal;
+      margin: 0;
+      background: @seaBlue;
+      border: 1px solid @seaBlue;
+      color: white;
+      padding: 8px 8px 8px 16px;
+      font-family: @hed;
+    }
+
+    .copy {
+      padding: 8px 8px 20px;
+      background: white;
+      letter-spacing: .3px;
+    }
+
+    h2 {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      text-transform: uppercase;
+    }
+
+    p {
+      margin-top: 0;
+    }
+
+    blockquote {
+      margin: 0;
+      text-style: normal;
+      display: inline;
+    }
+
+    cite {
+      display: inline;
+    }
+
+    .read-more {
+      display: block;
+      text-align: right;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+
+    .credit {
+      background: @seaBlue;
+      color: white;
+      padding: 8px;
+      text-transform: uppercase;
+      font-size: 12px;
+      text-align: right;
+      text-style: italic;
+      font-family: @hed;
+    }
+
+    &.right {
+      float: right;
+    }
+  }
+}
