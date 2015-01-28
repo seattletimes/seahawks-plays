@@ -30,14 +30,23 @@ header.intro {
     font-family: @hed;
     font-weight: normal;
     font-size: 40px;
+    line-height: 1.4em;
     padding: 0;
     text-align: center;
+
+    @media @mobile {
+      font-size: 30px;
+    }
   }
 
   p {
     font-family: @body;
     font-weight: 600;
     font-size: 20px;
+
+    @media @mobile {
+      font-size: 18px;
+    }
 
     &.byline {
       font-size: 14px;
