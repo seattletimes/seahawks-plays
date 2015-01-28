@@ -1,15 +1,15 @@
 {
   "s3": {
     "stage": {
-      "bucket": "",
-      "path": ""
+      "bucket": "apps-stage.seattletimesdata.com",
+      "path": "overblown-lieutenant"
     },
     "live": {
       "bucket": "",
       "path": ""
     }
   },
-  "title": "",
+  "title": "12 key moments from the Seahawks’ season",
   "description": "",
   "url": "",
   "slug": "",
