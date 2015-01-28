@@ -23,26 +23,32 @@ header.intro {
 
   .contents {
     margin: auto;
-    max-width: 800px;
+    max-width: 1024px;
   }
 
   h1 {
     font-family: @hed;
     font-weight: normal;
+    font-size: 40px;
     padding: 0;
     text-align: center;
   }
 
   p {
-    font-family: sans-serif;
+    font-family: @body;
+    font-weight: 600;
+    font-size: 20px;
 
     &.byline {
       font-style: italic;
     }
 
     &.instructions {
-      font-family: @hed;
+      font-family: @body;
+      font-size: 14px;
+      font-weight: 400;
       text-align: center;
+      opacity: 0.5;
     }
   }
 
