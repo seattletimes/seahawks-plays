@@ -25,10 +25,10 @@
 
         <div class="contents">
 
-          <h1>Top Moments of the Season</h1>
+          <h1>Top moments of 2014-15 season</h1>
 
           <p>
-            The road Seattle followed back to the Super Bowl featured a few unexpected detours and potholes before ultimately leading the Seahawks to the doorstep of NFL history. As the Seahawks attempt to become only the eighth team to win consecutive Super Bowls, here’s a look back at some of the defining moments of the season. Somehow, we decided on 12.
+            The road Seattle followed back to the Super Bowl featured a few unexpected detours and potholes before ultimately leading the Seahawks to the doorstep of NFL history. As the Seahawks attempt to become only the eighth team to win consecutive Super Bowls, here’s a look back at some of the defining moments of the season. <!--Somehow, we decided on 12.-->
           </p>
 
           <p class="instructions">
@@ -44,14 +44,15 @@
       <section class="parallax-play" data-index="<%= i %>">
         <img src="assets/<%= play.image %>" class="fixable">
         <div class="description <%= play.overlay %>">
-          <div class="numeral"><%= play.rank %></div>
+<!--           <div class="numeral"><sup>#</sup><%= play.rank %></div> -->
+          <h3 class="rank"><sup>#</sup><%= play.rank %>: <%= play.date %></h3>
           <h1><%= play.title %></h1>
           <div class="copy">
             <h2>What it meant</h2>
             <p><%= play.chatter %>
 
             <a class="read-more" href="<%= play.url %>">
-              More coverage from <%= play.link %> <i class="fa fa-angle-double-right"></i>
+              More coverage from <%= play.link %> &rarr;</i>
             </a>
             
             <h2>What they said</h2>
@@ -60,7 +61,7 @@
             <cite>&mdash;&nbsp;<%= play.from %></cite>
           </div>
           <div class="credit">
-            Photo: <%= play.credit %> / Seattle Times
+            Photo: <%= play.credit %> / The Seattle Times
           </div>
         </div>
       </section>

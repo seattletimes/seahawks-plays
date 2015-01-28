@@ -15,7 +15,9 @@
 
 @seaGreen: #1DD83C;
 @seaBlue: #00163F;
-@seaGray: #A5A7AF;
+@seaGray: #AAA;
+@st-blue: #09334B;
+@gray: #333;
 
 .transform(...) {
   -webkit-transform: @arguments;
@@ -33,7 +35,8 @@ body {
 }
 
 a {
-  color: #09334B;
+  color: @seaGray;
+  text-decoration: none;
   border: none;
 
   img {
@@ -41,8 +44,12 @@ a {
   }
 
   &:hover {
-    color: #3461A1;
+    color: @seaGreen;
   }
+}
+
+sup {
+  vertical-align: middle;
 }
 
 @import "page";
