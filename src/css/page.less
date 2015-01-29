@@ -68,3 +68,20 @@ header.intro {
   }
 
 }
+
+footer {
+  background: #444;
+  padding: 8px;
+
+  .logo {
+    img {
+      height: 20px;
+    }
+  }
+
+  &::after {
+    clear: both;
+    content: " ";
+    display: block;
+  }
+}

@@ -1,7 +1,12 @@
 
 var Share = require("share");
 
-var share = new Share(".share");
+new Share(".share");
+new Share(".share-bottom", {
+  ui: {
+    flyout: "top left"
+  }
+});
 
 var images = [].slice.call(document.querySelectorAll("img.fixable"));
 var dest = document.querySelector(".fixed-frame");
