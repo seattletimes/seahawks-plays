@@ -49,12 +49,32 @@ a {
   }
 }
 
-.share {
-  margin: 10px auto;
+.share, .share-bottom {
+  margin: 0 auto 10px auto;
+  display: inline-block !important;
+
+  &.sharer-0 {
+
+    label.entypo-export {
+      border-radius: 0;
+      background: #444;
+      color: @seaGray;
+
+      &:hover {
+        color: @seaGreen;
+      }
+    }
+  }
 }
 
 .share-bottom {
   float: right;
+
+  &.sharer-0 {
+
+    label.entypo-export {
+    }
+  }
 }
 
 sup {
