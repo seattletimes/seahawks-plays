@@ -36,7 +36,7 @@
           <p class="byline">
             <span class="byline-name">Reporting by Bob Condotta</span> &bull;
             <span class="byline-name">Web development by Thomas Wilburn</span>
-          </ul>
+          </p>
 
           <p class="instructions">
             <i class="fa fa-chevron-down"></i>
@@ -51,9 +51,10 @@
       <section class="parallax-play" data-index="<%= i %>">
         <img src="assets/<%= play.image %>" class="fixable">
         <div class="description <%= play.overlay %>">
-<!--           <div class="numeral"><sup>#</sup><%= play.rank %></div> -->
           <h3 class="rank"><sup>#</sup><%= play.rank %>: <%= play.date %></h3>
+
           <h1><%= play.title %></h1>
+
           <div class="copy">
             <h2>What it meant</h2>
             <p><%= play.chatter %>
@@ -66,6 +67,8 @@
             <blockquote>&ldquo;<%= play.quote %>&rdquo;</blockquote>
             
             <cite>&mdash;&nbsp;<%= play.from %></cite>
+
+            <h2 class="score">Score: <%= play.score %></h2>
           </div>
           <div class="credit">
             Photo by <%= play.credit %> / The Seattle Times
