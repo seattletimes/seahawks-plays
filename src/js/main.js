@@ -1,4 +1,8 @@
-//Use CommonJS style via browserify to load other modules
+
+var Share = require("share");
+
+var share = new Share(".share");
+
 var images = [].slice.call(document.querySelectorAll("img.fixable"));
 var dest = document.querySelector(".fixed-frame");
 var sections = [].slice.call(document.querySelectorAll(".parallax-play"));
