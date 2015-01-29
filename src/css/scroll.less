@@ -3,37 +3,17 @@
   z-index: 99;
 }
 
-img.fixed {
-  position: fixed;
-  z-index: -99;
-
-  //hack to center image
-  left: 50%;
-  top: 50%;
-  min-width: 100%;
-  max-height: 100%;
-
-  .transform(translateX(-50%) translateY(-50%) scale(1));
-  transition: transform .3s linear, opacity .3s linear;
-
-  &:hover {
-    .transform(translateX(-50%) translateY(-50%) scale(1.05));
-    opacity: 0;
-  }
-}
-
 .fixed-frame {
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
-  max-width: 1600px;
   height: 100%;
-  // background: pink;
-  @media (min-width: 1600px) {
-    left: auto;
-    right: auto;
-  }
+  // max-width: 1600px;
+  // @media (min-width: 1600px) {
+  //   left: auto;
+  //   right: auto;
+  // }
 
   img {
     opacity: 0;
