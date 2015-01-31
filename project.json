@@ -17,7 +17,7 @@
   "tags": ["sports", "seahawks", "football", "super-bowl"],
   "embargo": ["superbowl/*"],
   "superbowl": {
-    "title": "",
+    "title": "The Super Bowl: Kind of a big deal",
     "description": "",
     "url": "http://projects.seattletimes.com/2015/seahawks-top-moments/superbowl/",
     "slug": "seahawks-superbowl-moments",
