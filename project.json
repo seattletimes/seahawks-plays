@@ -14,14 +14,14 @@
   "url": "http://projects.seattletimes.com/2015/seahawks-top-moments",
   "img": "assets/No.2_WillsonTdVsPanthers.jpg",
   "slug": "seahawks-top-moments",
-  "tags": ["sports", "seahawks", "football", "super-bowl"],
+  "tags": ["sports", "seahawks", "football", "super", "bowl"],
   "embargo": ["superbowl/*"],
   "superbowl": {
-    "title": "The Super Bowl: Kind of a big deal",
+    "title": "Top moments from Super Bowl XLIX",
     "description": "",
     "url": "http://projects.seattletimes.com/2015/seahawks-top-moments/superbowl/",
     "slug": "seahawks-superbowl-moments",
     "img": "assets/superbowl/social media image goes here",
-    "tags": [""]
+    "tags": ["sport", "seahawks", "football", "super", "bowl", "patriots"]
   }
 }
