@@ -60,11 +60,11 @@
 
             <% if (play.url) { %>
               <a class="read-more" href="<%= play.url %>">
-                Read story by <%= play.link %> &rarr;</i>
+                Read story by <%= play.link %> &rarr;
               </a>
             <% } %>
             
-            <% if (play.url) { %>
+            <% if (play.quote) { %>
               <h2>What they said</h2>
               <blockquote>&ldquo;<%= play.quote %>&rdquo;</blockquote>
               <cite>&mdash;&nbsp;<%= play.from %></cite>
