@@ -17,11 +17,11 @@
   "tags": ["sports", "seahawks", "football", "super", "bowl"],
   "embargo": ["superbowl/*"],
   "superbowl": {
-    "title": "Top moments from Super Bowl XLIX",
+    "title": "Game-changing plays of Super Bowl XLIX",
     "description": "",
     "url": "http://projects.seattletimes.com/2015/seahawks-top-moments/superbowl/",
     "slug": "seahawks-superbowl-moments",
-    "img": "assets/superbowl/social media image goes here",
+    "img": "assets/superbowl/06GameWinnerINT.jpg",
     "tags": ["sport", "seahawks", "football", "super", "bowl", "patriots"]
   }
 }
