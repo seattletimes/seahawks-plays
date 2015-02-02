@@ -15,10 +15,9 @@
   "img": "assets/No.2_WillsonTdVsPanthers.jpg",
   "slug": "seahawks-top-moments",
   "tags": ["sports", "seahawks", "football", "super", "bowl"],
-  "embargo": ["superbowl/*"],
   "superbowl": {
     "title": "Game-changing plays of Super Bowl XLIX",
-    "description": "",
+    "description": "Super Bowl XLIX became an instant classic, with the Patriots rallying from a 10-point deficit in the fourth quarter before the Seahawks drove to the one-yard line … but instead of handing the ball to Marshawn Lynch, they elected to throw. Here are seven pivotal moments in the Patriots’ 28-24 victory.",
     "url": "http://projects.seattletimes.com/2015/seahawks-top-moments/superbowl/",
     "slug": "seahawks-superbowl-moments",
     "img": "assets/superbowl/06GameWinnerINT.jpg",
